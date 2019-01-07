@@ -1,0 +1,16 @@
+PODS:
+  - NCKFoundation (0.1.0)
+
+DEPENDENCIES:
+  - NCKFoundation (from `../`)
+
+EXTERNAL SOURCES:
+  NCKFoundation:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NCKFoundation: a18228e025624899d69f912322d855fbb6f84d8f
+
+PODFILE CHECKSUM: ffbcaabd7d7bb4a4d9849875fe3694ab79e5ff22
+
+COCOAPODS: 1.6.0.beta.2
