@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'NCKFoundation'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of NCKFoundation.'
+  s.summary          = 'NCKFoundation.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/feihuohua@163.com/NCKFoundation'
+  s.homepage         = 'https://github.com/feihuohua/NCKFoundation'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'feihuohua@163.com' => 'feihuohua@163.com' }
-  s.source           = { :git => 'https://github.com/feihuohua@163.com/NCKFoundation.git', :tag => s.version.to_s }
+  s.author           = { 'feihuohua' => 'feihuohua@163.com' }
+  s.source           = { :git => 'https://github.com/feihuohua/NCKFoundation.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
