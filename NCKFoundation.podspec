@@ -30,8 +30,8 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'NCKFoundation/Classes/**/*', 'NCKFoundation/Classes/ThirdParty/WeChatSDK1.8.3/*.{h}'
-  s.vendored_libraries  = 'NCKFoundation/Classes/ThirdParty/WeChatSDK1.8.3/*.{a}'
+  s.source_files = 'NCKFoundation/Classes/**/*', 'NCKFoundation/Classes/ThirdParty/*.{h}'
+  s.vendored_libraries  = 'NCKFoundation/Classes/ThirdParty/*.{a}'
   s.frameworks = 'SystemConfiguration','CoreGraphics','CoreTelephony','Security','CoreLocation','JavaScriptCore'
   s.libraries  = 'iconv','sqlite3','stdc++','z'
   

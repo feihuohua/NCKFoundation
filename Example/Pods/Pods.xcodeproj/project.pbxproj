@@ -9,9 +9,12 @@
 /* Begin PBXBuildFile section */
 		08DE56DD7006B8F3F24AFB6C1444D19B /* UIImage+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AA1B9153633729F35C67949C7006B7A /* UIImage+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0903A8D0960ACB9D2B0193FFB8C64040 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 434E574D60CF3205EB86C49EB8453D2E /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		095BCA7721E4905A0001B56F /* WXApiObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 095BCA7321E4905A0001B56F /* WXApiObject.h */; };
+		095BCA7821E4905A0001B56F /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 095BCA7421E4905A0001B56F /* libWeChatSDK.a */; };
+		095BCA7921E4905A0001B56F /* WechatAuthSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 095BCA7521E4905A0001B56F /* WechatAuthSDK.h */; };
+		095BCA7A21E4905A0001B56F /* WXApi.h in Headers */ = {isa = PBXBuildFile; fileRef = 095BCA7621E4905A0001B56F /* WXApi.h */; };
 		13926D4FC9D8053660389F1A32AAED60 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2BECEF8550127D26AF9E6A87717B757 /* CoreTelephony.framework */; };
 		150F113BEE7E69B185237944A7E36F1C /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5F530A34F8BC6E28600DE2915810750 /* MobileCoreServices.framework */; };
-		15458F15FE6B7E428DA69705B6AD2E9A /* libWeChatSDK.a in Sources */ = {isa = PBXBuildFile; fileRef = D80EB6B9BEA2C189FC5B3E2AF208A2A6 /* libWeChatSDK.a */; };
 		1D884BE61CA0B2492517CC37353EF5A0 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B66C0AEBC9F9724A670DCF79BE4531 /* AFURLRequestSerialization.m */; };
 		1E867860C3AF6CCEDA2C6FE47AB06FF4 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FCE515458698D487F74FB75FBDAAC23 /* Security.framework */; };
 		228035EC820783A582D4F72F69217CC5 /* NCKFoundation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD0456B66520EAD42B7FB45962704C03 /* NCKFoundation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -31,7 +34,6 @@
 		46A2B17FC518E0CB860BF1239B0F08CD /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 87463A8F055EEE85DD10593D0C8721B2 /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		46F823033B6882F8EEF99DAC74F8328C /* AFImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = E06C4D570ABCF18D8095B9111D3D3F98 /* AFImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4ED789C4126DF20CCC5640B9A8AE7FC5 /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = BAEEB3CDE859F3F412940D15AA031037 /* AFAutoPurgingImageCache.m */; };
-		55CFC3F7D448CF31C69AB44907195973 /* WechatAuthSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 696A6A0D633C387FADA5D6A99F92DE5D /* WechatAuthSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5DF6877A5DD863C6A5C82F52529FC324 /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C71DB2632AE2E107C12837E932A8E08 /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		60D7310ADF660CA33C8B3571274CFC24 /* WHObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 78693B07A115B46C67D5C3C05CA17CF0 /* WHObject.m */; };
 		65007BC85FDA39632BE89F735E4789EF /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 85053C33AB5B93D2852851105AAA32B1 /* UIProgressView+AFNetworking.m */; };
@@ -39,7 +41,6 @@
 		6D461BF5C062629F05782C2153FC07DD /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 996D38C17E48CD16703CD9A31F9F6EC7 /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6F2E15D7B8142F79EFCF304F11CAB7AE /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E0C171634A123A0E7FC39F44FA05D2 /* UIActivityIndicatorView+AFNetworking.m */; };
 		72FCE73684825386EA5F5FF371B0039B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD8E3CED548F529D02C7E8F44E077ED5 /* Foundation.framework */; };
-		84ADD0896D0AD4E5786B731B99B92405 /* WXApiObject.h in Headers */ = {isa = PBXBuildFile; fileRef = E90E7CAE8EA12593064EFF22FAADB0C7 /* WXApiObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		857DC48C366509FB53EC6788E19C9123 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD8E3CED548F529D02C7E8F44E077ED5 /* Foundation.framework */; };
 		8840AE54789B2650FFF3F97562FAED72 /* Pods-NCKFoundation_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 63B8EB7435BF469D91F52197FDE39D25 /* Pods-NCKFoundation_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8BF98C2B3AA8E1792DE56E38040A51F7 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 103EE194B42BE62229AA5C5351E9BFE9 /* AFURLResponseSerialization.m */; };
@@ -65,7 +66,6 @@
 		E7B8701A672FEA18094AB4A7D756394D /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 641E912D34C2E34A7FBA62B3E2E616C8 /* AFNetworking.framework */; };
 		EF9432C7318F0A93046417CCD42EAFD8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD8E3CED548F529D02C7E8F44E077ED5 /* Foundation.framework */; };
 		F02ABD558D940FD55E2BFD36019A80EE /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = EECF143AE392C1D26B1C57DFCCC39E7E /* AFSecurityPolicy.m */; };
-		F1215ED435710A32E6A37069569FE6FE /* WXApi.h in Headers */ = {isa = PBXBuildFile; fileRef = 760E963B50E9F85068C70191DEF48EFB /* WXApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F31316200CBA4FE6F3E2B66E5A1B5065 /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EB9F5DA3051DAC003422E54B3B4A6E9D /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F6AAB16E13B236FDB88D654DAA4B463B /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = F05638D4877C1C9F1AAC3E348D5C7D70 /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F7940254595AFB7CCDA9977C22A8FCF3 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F42B01C0184F7993752BA21574CFB4 /* AFNetworkReachabilityManager.m */; };
@@ -108,6 +108,10 @@
 		038DE6D856DFAE2F85304D036588D065 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
 		077A1959F6F952532F523B4F8E9B751D /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
 		085590B05742B56DCCB07F073F5F7998 /* Pods-NCKFoundation_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NCKFoundation_Example-Info.plist"; sourceTree = "<group>"; };
+		095BCA7321E4905A0001B56F /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		095BCA7421E4905A0001B56F /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		095BCA7521E4905A0001B56F /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
+		095BCA7621E4905A0001B56F /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
 		0AA1B9153633729F35C67949C7006B7A /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+AFNetworking.h"; path = "UIKit+AFNetworking/UIImage+AFNetworking.h"; sourceTree = "<group>"; };
 		103EE194B42BE62229AA5C5351E9BFE9 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
 		11127B73E925476107CCA78A4613C6C7 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -135,12 +139,10 @@
 		60FDE8718B3C2608D30D734C8A15D3D3 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
 		63B8EB7435BF469D91F52197FDE39D25 /* Pods-NCKFoundation_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NCKFoundation_Example-umbrella.h"; sourceTree = "<group>"; };
 		641E912D34C2E34A7FBA62B3E2E616C8 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		696A6A0D633C387FADA5D6A99F92DE5D /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
 		69DAA8D29D605736A0994260EEE74150 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
 		6A8F834A79E68469594705E485777380 /* AFNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AFNetworking.modulemap; sourceTree = "<group>"; };
 		73950156966D6FB93DC14CBF7F3326A6 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
 		7441A91BDCB7FED0095B5BF0082C72DA /* NCKFoundation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NCKFoundation-Info.plist"; sourceTree = "<group>"; };
-		760E963B50E9F85068C70191DEF48EFB /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
 		766A8DB58B1DEC0150E36AD843786FF3 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
 		78693B07A115B46C67D5C3C05CA17CF0 /* WHObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WHObject.m; sourceTree = "<group>"; };
 		7FCE515458698D487F74FB75FBDAAC23 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
@@ -167,7 +169,6 @@
 		BAEEB3CDE859F3F412940D15AA031037 /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFAutoPurgingImageCache.m; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.m"; sourceTree = "<group>"; };
 		C86A0C4219E2C2C7AF26AD34D9695975 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 		D7FE29DE6F43172420FF2AFD24654773 /* NCKFoundation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NCKFoundation-prefix.pch"; sourceTree = "<group>"; };
-		D80EB6B9BEA2C189FC5B3E2AF208A2A6 /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
 		D94917E70FFB3AF55F7E025C3F9A31BE /* NCKFoundation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NCKFoundation-dummy.m"; sourceTree = "<group>"; };
 		DB8AF2C0309AA61F87F3991957D180F3 /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
 		DD0456B66520EAD42B7FB45962704C03 /* NCKFoundation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NCKFoundation-umbrella.h"; sourceTree = "<group>"; };
@@ -178,7 +179,6 @@
 		E2BECEF8550127D26AF9E6A87717B757 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
 		E5F530A34F8BC6E28600DE2915810750 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
 		E6E0C171634A123A0E7FC39F44FA05D2 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
-		E90E7CAE8EA12593064EFF22FAADB0C7 /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
 		E94C90A5DECE8BF49DD5F3D682770B48 /* Pods-NCKFoundation_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NCKFoundation_Example-dummy.m"; sourceTree = "<group>"; };
 		E9F028AC20780531564FC96D7359DE0D /* Pods-NCKFoundation_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NCKFoundation_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		EB9F5DA3051DAC003422E54B3B4A6E9D /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
@@ -224,6 +224,7 @@
 			files = (
 				B4B888D7077250A7F3AB833B5D2E9570 /* CoreGraphics.framework in Frameworks */,
 				857DC48C366509FB53EC6788E19C9123 /* Foundation.framework in Frameworks */,
+				095BCA7821E4905A0001B56F /* libWeChatSDK.a in Frameworks */,
 				150F113BEE7E69B185237944A7E36F1C /* MobileCoreServices.framework in Frameworks */,
 				2F465760ED7EF3455B762D3115F9037F /* Security.framework in Frameworks */,
 				C6DA8D03AB2E3A4D79E9CB0351AEA7CE /* SystemConfiguration.framework in Frameworks */,
@@ -282,17 +283,6 @@
 			path = "../Target Support Files/AFNetworking";
 			sourceTree = "<group>";
 		};
-		318585241A88672681DF49ADF8239CB4 /* WeChatSDK1.8.3 */ = {
-			isa = PBXGroup;
-			children = (
-				D80EB6B9BEA2C189FC5B3E2AF208A2A6 /* libWeChatSDK.a */,
-				696A6A0D633C387FADA5D6A99F92DE5D /* WechatAuthSDK.h */,
-				760E963B50E9F85068C70191DEF48EFB /* WXApi.h */,
-				E90E7CAE8EA12593064EFF22FAADB0C7 /* WXApiObject.h */,
-			);
-			path = WeChatSDK1.8.3;
-			sourceTree = "<group>";
-		};
 		413005B2571C1231486BA3842DB514C3 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -305,7 +295,10 @@
 		4EE74B6A64BC46715003462D9C038FBD /* ThirdParty */ = {
 			isa = PBXGroup;
 			children = (
-				318585241A88672681DF49ADF8239CB4 /* WeChatSDK1.8.3 */,
+				095BCA7421E4905A0001B56F /* libWeChatSDK.a */,
+				095BCA7521E4905A0001B56F /* WechatAuthSDK.h */,
+				095BCA7621E4905A0001B56F /* WXApi.h */,
+				095BCA7321E4905A0001B56F /* WXApiObject.h */,
 			);
 			name = ThirdParty;
 			path = NCKFoundation/Classes/ThirdParty;
@@ -556,9 +549,12 @@
 				08DE56DD7006B8F3F24AFB6C1444D19B /* UIImage+AFNetworking.h in Headers */,
 				BF67B7A5B03BBE5E7476950F606BE090 /* UIImageView+AFNetworking.h in Headers */,
 				46A2B17FC518E0CB860BF1239B0F08CD /* UIKit+AFNetworking.h in Headers */,
+				095BCA7A21E4905A0001B56F /* WXApi.h in Headers */,
 				F6AAB16E13B236FDB88D654DAA4B463B /* UIProgressView+AFNetworking.h in Headers */,
+				095BCA7921E4905A0001B56F /* WechatAuthSDK.h in Headers */,
 				6D461BF5C062629F05782C2153FC07DD /* UIRefreshControl+AFNetworking.h in Headers */,
 				3B3B1099930A8C069D9539D588D74E13 /* UIWebView+AFNetworking.h in Headers */,
+				095BCA7721E4905A0001B56F /* WXApiObject.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -567,11 +563,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				228035EC820783A582D4F72F69217CC5 /* NCKFoundation-umbrella.h in Headers */,
-				55CFC3F7D448CF31C69AB44907195973 /* WechatAuthSDK.h in Headers */,
 				9D7122F39D888A521C9FF419FA27FBAE /* WHLog.h in Headers */,
 				CDA4DC6B949B64964D247C008539EBF1 /* WHObject.h in Headers */,
-				F1215ED435710A32E6A37069569FE6FE /* WXApi.h in Headers */,
-				84ADD0896D0AD4E5786B731B99B92405 /* WXApiObject.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -750,7 +743,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15458F15FE6B7E428DA69705B6AD2E9A /* libWeChatSDK.a in Sources */,
 				D0EF21F313839A3C0FAB35310EB00068 /* NCKFoundation-dummy.m in Sources */,
 				9517A116B1CC200967C7319203A9BAD2 /* WHLog.m in Sources */,
 				60D7310ADF660CA33C8B3571274CFC24 /* WHObject.m in Sources */,
