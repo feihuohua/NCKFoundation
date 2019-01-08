@@ -9,6 +9,7 @@
 #import "WHViewController.h"
 #import "WHLog.h"
 #import "WHObject.h"
+#import "WXApi.h"
 
 @interface WHViewController ()
 

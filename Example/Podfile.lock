@@ -1,15 +1,36 @@
 PODS:
-  - NCKFoundation (0.1.0)
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - NCKFoundation (0.1.0):
+    - AFNetworking (~> 3.1.0)
 
 DEPENDENCIES:
   - NCKFoundation (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
 
 EXTERNAL SOURCES:
   NCKFoundation:
     :path: "../"
 
 SPEC CHECKSUMS:
-  NCKFoundation: a18228e025624899d69f912322d855fbb6f84d8f
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  NCKFoundation: eb82f43d01814b31cab3cacb6ff2131a37e9a693
 
 PODFILE CHECKSUM: ffbcaabd7d7bb4a4d9849875fe3694ab79e5ff22
 
