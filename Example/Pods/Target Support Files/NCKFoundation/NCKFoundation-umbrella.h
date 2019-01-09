@@ -15,6 +15,7 @@
 #import "WXApiObject.h"
 #import "WHLog.h"
 #import "WHObject.h"
+#import "WHObject.h"
 
 FOUNDATION_EXPORT double NCKFoundationVersionNumber;
 FOUNDATION_EXPORT const unsigned char NCKFoundationVersionString[];
